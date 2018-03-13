@@ -21,7 +21,8 @@ type server struct{}
 // SayHello メソッド
 // protoファイルのservice部分に記載したRPCメソッドを実装する
 func (s *server) SayHello(ctx context.Context, in *pb.HelloRequest) (*pb.HelloReply, error) {
-	return pb.HelloReply{Message: "Hello " + in.Name}, nil
+	//return pb.HelloReply{Message: "Hello " + in.Name}, nil
+	return &pb.HelloReply{Message: in.Name}, nil
 }
 
 func main() {
@@ -31,7 +32,7 @@ func main() {
 	}
 	s := grpc.NewServer()
 	// server構造体をGreeterとしてProtocol Bufferに登録する
-	pb.RegisterGreeterServer(s, server{})
+	pb.RegisterGreeterServer(s, &server{})
 	reflection.Register(s)
 	if err := s.Serve(lis); err != nil {
 		log.Fatalf("failed to serve: %v", err)
