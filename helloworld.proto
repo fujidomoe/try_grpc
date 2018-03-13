@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+// パッケージ名を記載している
+package helloworld;
+
+// serviceで定義したものが一つのAPIサーバになるようなイメージ
+// コンパイルされたサーバプログラムのコードを読めばよく分かる
+service Greeter {
+    // ここでRPCのメソッドを定義する
+    // このメソッドはHelloRequestを受け取ってHelloReplyを返す
+    // 受け取るデータと返却するデータはさらに下の方のmessageで定義しているもの
+    rpc SayHello (HelloRequest) returns (HelloReply) {}
+}
+
+// GreeterのSayHelloで受け取るデータ
+message HelloRequest {
+    // nameという項目名で文字列を受け取る
+    string name = 1;
+}
+
+// GreeterのSayHelloで返すデータ
+message HelloReply {
+    // messageという項目名で文字列を返却する
+    string message = 1;
+}
