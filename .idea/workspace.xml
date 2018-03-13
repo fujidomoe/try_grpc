@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad6f9435-a83b-43b4-998f-543ac6fd511e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/client/main.go" afterPath="$PROJECT_DIR$/client/main.go" />
       <change beforePath="$PROJECT_DIR$/server/main.go" afterPath="$PROJECT_DIR$/server/main.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,21 +18,11 @@
           <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/server/main.go">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+                <state relative-caret-position="345">
+                  <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
                   <folding>
                     <element signature="e#14#152#0" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="helloworld.pb.go" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/helloworld.pb.go">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="495">
-                  <caret line="40" column="4" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -68,7 +57,7 @@
             <entry file="file://$PROJECT_DIR$/client/main.go">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="450">
-                  <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+                  <caret line="30" column="76" lean-forward="true" selection-start-line="30" selection-start-column="76" selection-end-line="30" selection-end-column="76" />
                   <folding>
                     <element signature="e#14#113#0" expanded="true" />
                   </folding>
@@ -97,8 +86,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/server/main.go" />
         <option value="$PROJECT_DIR$/client/main.go" />
+        <option value="$PROJECT_DIR$/server/main.go" />
       </list>
     </option>
   </component>
@@ -313,12 +302,12 @@
       <option name="presentableId" value="Default" />
       <updated>1520918842842</updated>
       <workItem from="1520918844329" duration="3092000" />
-      <workItem from="1520934048925" duration="475000" />
+      <workItem from="1520934048925" duration="704000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3567000" />
+    <option name="totallyTimeSpent" value="3796000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="2537" extended-state="6" />
@@ -380,28 +369,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/helloworld.pb.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="40" column="4" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+        <state relative-caret-position="976">
+          <caret line="97" column="1" lean-forward="true" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
-          <folding>
-            <element signature="e#14#152#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="420">
+          <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
           <folding>
             <element signature="e#14#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding>
+            <element signature="e#14#152#0" expanded="true" />
           </folding>
         </state>
       </provider>

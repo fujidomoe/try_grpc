@@ -21,8 +21,7 @@ type server struct{}
 // SayHello メソッド
 // protoファイルのservice部分に記載したRPCメソッドを実装する
 func (s *server) SayHello(ctx context.Context, in *pb.HelloRequest) (*pb.HelloReply, error) {
-	//return pb.HelloReply{Message: "Hello " + in.Name}, nil
-	return &pb.HelloReply{Message: in.Name}, nil
+	return &pb.HelloReply{Message: "Hello " + in.Name}, nil
 }
 
 func main() {
